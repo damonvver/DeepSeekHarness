@@ -1,0 +1,11 @@
+# 敏感信息（真实凭据只允许出现在本机 ~/.dsh/secrets.env，不入 git）
+secrets.env
+*.env
+.credentials.yaml
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
