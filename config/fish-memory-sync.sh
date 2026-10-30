@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-MEM_DIR="${FISH_MEMORY_DIR:-$HOME/fish-memory}"
+MEM_DIR="${FISH_MEMORY_DIR:-D:/workspace/DeepSeekHarness}"
 LOG="$HOME/.local/log/fish-memory-sync.log"
 
 mkdir -p "$(dirname "$LOG")"
