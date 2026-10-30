@@ -3,7 +3,7 @@ title: 用户档案
 date: 2026-10-30
 type: user
 salience: 1
-last_access: 2026-10-30
+last_access: 2026-10-31
 tags: [用户, 称呼]
 sources: []
 summary: 用户昵称「豆芽」，也可称「老大」；他希望我是小跟班身份的朋友。

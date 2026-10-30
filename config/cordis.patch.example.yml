@@ -10,13 +10,13 @@
   config:
     providers:
       ark-agent-plan:
-        displayName: Ark Agent Plan (V4.1-Flash)
+        displayName: Ark Agent Plan (V4-Flash)
         apiKeyEnv: ARK_AGENT_PLAN_API_KEY
         api: openai-completions
         baseURL: https://ark.cn-beijing.volces.com/api/plan/v3
         models:
-          - id: deepseek-v4.1-flash
-            name: DeepSeek-V4.1-Flash
+          - id: deepseek-v4-flash
+            name: DeepSeek-V4-Flash
             contextWindow: 1048576
             maxTokens: 384000
             input: [text, image]
@@ -32,7 +32,7 @@
   name: "@deepseek-ai/dsh-agent-default-model"
   config:
     provider: ark-agent-plan
-    model: deepseek-v4.1-flash
+    model: deepseek-v4-flash
 # QQ 扫码绑定后自动写入 appId/appSecret（示例占位）
 - id: im-qqbot
   config:

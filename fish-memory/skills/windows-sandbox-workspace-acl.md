@@ -3,7 +3,7 @@ title: Windows 沙箱写入被拒（工作区 ACL）→ 跑修复脚本
 date: 2026-10-30
 type: skill
 salience: 2
-last_access: 2026-10-30
+last_access: 2026-10-31
 summary: pwsh 所有命令报 SetNamedSecurityInfoW failed (Win32 5) grantWrite(D:\workspace) 时，用 diagnose-windows-sandbox-acl 脚本一次性诊断+修复，需 danger-full-access 批准。
 tags: [windows, sandbox, acl, dsh]
 sources: []

@@ -3,7 +3,7 @@ title: QQ 通道能发什么（onebot vs 官方 bot）
 date: 2026-10-30
 type: skill
 salience: 1
-last_access: 2026-10-30
+last_access: 2026-10-31
 summary: 当前 QQ 会话走 dsh-onebot-channel（NapCat），只能发文字；qqbot_send_file 属官方 bot 且要 openid，qq_collect_face 的 file= 被 NapCat 按本地相对路径解析，都不通。文字里带本机路径会被审计拦截。
 tags: [qq, onebot, napcat, 发图, 审计]
 sources: []
