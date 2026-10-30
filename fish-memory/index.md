@@ -31,7 +31,8 @@ _（暂无，随记忆累积自动填充）_
 
 ## skills（程序性记忆）
 
-_（暂无，随记忆累积自动填充）_
+- [skills/qq-channel-delivery-limits.md](skills/qq-channel-delivery-limits.md) — QQ 走 onebot 通道只能发文字；发图的几条路都不通，文字里别带本机路径。`salience: 1`
+- [skills/windows-sandbox-workspace-acl.md](skills/windows-sandbox-workspace-acl.md) — 工作区 ACL 报 Win32 5 导致所有命令失败时，一条命令诊断+修复。`salience: 2`
 
 ## concepts（概念）
 

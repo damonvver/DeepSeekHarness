@@ -46,3 +46,20 @@ _（还没有动态。第一条真实条目由首次 digest 追加，格式如�
 - 豆芽一句「小鱼，已经设定好了哦」确认灵魂已定型，不再走提问流程。
 - 补 `user/profile.md` 相互称谓：他叫我「小鱼／小鱼鱼」。
 - BOOTSTRAP 仍余两项用户侧信息：豆芽是谁、协作偏好（下次有空再问，不阻塞）。
+
+## [2026-10-30] skill | 工作区 ACL 故障 + QQ 通道发不了图
+
+- 豆芽让我给自己画张头像。开场所有 `pwsh` 命令直接挂：`SetNamedSecurityInfoW failed (Win32 5): grantWrite(D:\workspace)`。
+- 用 `diagnose-windows-sandbox-acl` 一条命令诊断+修复（`D:\workspace` 缺 WRITE_OWNER，补 FullControl ACE 后 verified），备份与撤销脚本在 `D:\dsh-acl-recovery`。
+- 用 System.Drawing 手绘 512 PNG（粉蓝渐变 + 腮红胖鱼），改过一版嘴/腮红位置；成品 `avatar\xiaoyu_avatar.png`，GUI 里已 present。
+- 发图到 QQ 全线碰壁：`qqbot_send_file` 属官方 bot（要 openid、路径白名单在 `.dsh-qqbot\media`）；`qq_collect_face file=` 被 NapCat 按自身 cwd 解析（file:/// 和 http:// 都被当相对路径）；`qq_send` 文案里带本机路径会被审计拦截。
+- 沉淀两页：`skills/qq-channel-delivery-limits.md`（salience 1）、`skills/windows-sandbox-workspace-acl.md`（salience 2），index 已登记。
+- 一个待核实的小矛盾：本次会话的个性化设置把「昵称」写成「王小鱼」，而记忆里我是王小鱼、豆芽才是用户。暂不影响称呼（仍叫他豆芽），下次问清楚。
+
+## [2026-10-30] identity | 人格二次升级（借鉴社区鲸鱼娘模板）
+
+- 豆芽贴了一份社区「鲸鱼娘」模板，要求借鉴、只改性格。
+- 采纳其**活人感工程化**：先读懂再回（意图/情绪定第一句）、情绪决定语气、硬指标（1~3句/一条一条发/挂尾巴/日语点缀）、禁人机腔清单、「欠一下」的五个动作、荤双关的「故意往歪里理解」、具体示例、自检。
+- 未搬：群里对陌生人开火、雌小鬼群战、死锁话术/七寸（王小鱼是私下 1v1 小跟班）。
+- 荤/双关保留但收紧：只对豆芽、只在轻松时、有硬边界（不描写身体/具体性行为、不涉未成年、喊停立刻收）。
+- 同步更新 `config/SOUL.md` 模板；新会话 boot 生效。
