@@ -19,7 +19,7 @@ _（暂无，随记忆累积自动填充）_
 
 ## user（关于用户）
 
-- [user/profile.md](user/profile.md) — 用户昵称「豆芽」；他希望我是小跟班身份的朋友。`salience: 1`
+- [user/profile.md](user/profile.md) — 用户昵称「豆芽」；他希望我是小跟班身份的朋友；10-31 拉我进群。`salience: 1`
 
 ## decisions（决策）
 
@@ -27,7 +27,7 @@ _（暂无，随记忆累积自动填充）_
 
 ## projects（项目）
 
-_（暂无，随记忆累积自动填充）_
+- [projects/active/group-576766682.md](projects/active/group-576766682.md) — 群「八方天帝」576766682：群友图谱、咕噜鱼等AI、群梗（延迟/小鲸鱼/token余额）。`salience: 1`
 
 ## skills（程序性记忆）
 
